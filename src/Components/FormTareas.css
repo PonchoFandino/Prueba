@@ -1,0 +1,70 @@
+.tareasForm{
+  top: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  
+}
+.todoform{
+    border: 1px solid rgb(224, 205, 153);
+    padding: 10%;
+    border-radius: 10px 10px 0 0;
+}
+.todoInput{
+    padding: 10%;
+    max-width: 100px;
+}
+.inputext{
+    background: none;
+    border: none;
+    border-bottom:1px solid rgb(224, 205, 153);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    position: relative;
+    margin: auto;
+    color:rgb(224, 205, 153);
+    padding: 5px;
+    margin-right: 10px;
+    max-width: 200px;
+
+}
+.inputextHeader{
+    background:  rgb(224, 205, 153);
+    border: none;
+    border-bottom:1px solid rgb(224, 205, 153);
+    margin-bottom: 5px;
+    color:rgb(51, 79, 102);
+    padding: 5px;
+}
+.BtnCrear{
+    background:  rgb(224, 205, 153);
+    border: none;
+    border-radius: 5px;
+    padding: 5%;
+    color: rgb(51, 79, 102);
+    margin-top:10px;
+
+}
+@media only screen and (max-width: 700px) {
+    .tareasForm{
+        top: 0;
+        position: absolute;
+        left:20px;
+        right: auto;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        
+      }
+      .column {
+        width: 100%;
+      }
+      /* .container{
+          width: 100%;
+          margin: auto;
+          position: absolute;
+          display: grid;
+      } */
+}

@@ -1,0 +1,28 @@
+{
+    "tareas": [
+        {
+            "titúlo": "Tomar tinto",
+            "responsable": "Poncho Fadiño",
+            "descripción": "Calentar y servir",
+            "prioridad": "Alta"
+        },
+        {
+            "titúlo": "Terminar la App",
+            "responsable": "Poncho Fadiño",
+            "descripción": "Estudiar instrucciones y seguirlas",
+            "prioridad": "Alta"
+        },
+        {
+            "titúlo": "Dormir",
+            "responsable": "Poncho Fadiño",
+            "descripción": "Acostarse con Gaby",
+            "prioridad": "Alta"
+        },
+        {
+            "titúlo": "Despertar",
+            "responsable": "Poncho Fadiño",
+            "descripción": "ya es hora",
+            "prioridad": "Alta"
+        }
+    ]
+}

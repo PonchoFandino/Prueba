@@ -1,0 +1,285 @@
+body{
+    background-color: rgb(51, 79, 102);
+    align-items: center;
+    
+   }
+   Nav{
+     height: 60px;
+     width: 100%;
+     display: block;
+     align-items: center;
+     background:rgb(224, 205, 153); 
+   
+   }
+   .textDef{
+     color:rgb(51, 79, 102);
+   }
+   ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+   }
+   .ulNav{
+     position: absolute;
+     right: 0;
+     top: 0;
+     padding: 5px;
+   }
+   li{
+     padding: 5px;
+     float:left;
+     
+   }
+   .navSpan{
+     font-family: Courier New, Courier, monospace;
+     font-size: 1.5rem;
+     line-height: 2rem;
+     font-weight: bold;
+     margin: auto;
+     position: center;
+     -ms-flex-pack: end;
+     justify-content:flex-end;
+   }
+   .avatar{
+     height: 40px;
+     width: 40px;
+     background:none;
+     flex-shrink: 0;
+     display: inline-block;
+     /* border:1px solid rgb(51, 79, 102); */
+   }
+   .Nota {
+     /* background-color: rgb(168, 167, 162); */
+     height: 100%;
+     background-size: 100%;
+     margin-top: 5px;
+     font-size: 1em;
+     color:rgb(51, 79, 102);
+     font-family:  'Gloria Hallelujah', cursive;
+     -webkit-font-smoothing:antialiased ;
+     /* font-weight: bold; */
+     padding-top: 50px;
+     text-align: center;
+     margin-bottom: 30px;
+   }
+   .Nota> div {
+     max-width: 300px;
+     margin: auto;
+     padding: 20px;
+     background: rgb(224, 205, 153);
+     position: relative;
+     box-shadow: 3px 3px 5px 0px #6e6d6d;
+   }
+   
+   .Nota> div::before{
+     box-shadow: 3px 3px 5px 0px #6e6d6d;
+     border-left: 20px solid rgb(51, 79, 102);
+     border-right: 20px solid rgb(236, 225, 190);
+     border-top: 20px solid rgb(51, 79, 102);
+     border-bottom: 20px solid rgb(236, 225, 190);
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 0;
+     width:0;  
+   }
+   .Tarea {
+     /* background: rgba(255, 255, 255, 0.274); */
+     font-family: 'Courier New', Courier, monospace;
+     color: rgb(224, 205, 153);
+     padding: "";
+     border: 1px solid rgb(224, 205, 153);
+     border-radius: 10px;
+     text-align: center;
+     margin-right: 20px;
+     margin-left: 10%;
+     margin-top:20px;
+   }
+   .tareaText{
+     padding: 10%;
+     border-bottom: 1px solid rgb(224, 205, 153);
+   }
+   .tareaTextHeader{
+     background: rgb(224, 205, 153);
+     padding: 10%;
+     border-bottom: 1px solid rgb(224, 205, 153);
+     border-radius: 10px 10px 0 0; 
+     Color: rgb(51, 79, 102);
+     font-weight: bold;
+   }
+   .tareaFoot{
+     padding: 10%;
+     background: rgb(224, 205, 153);
+     border-radius: 0px 0px 10px 10px;
+     color:rgb(51, 79, 102);
+   }
+   .tareaBtn {
+     background: none;
+     color:rgb(51, 79, 102);
+     border: none;
+     
+   }
+   .tareaBtn:hover{
+     border:none;
+     cursor: pointer;
+     color: rgb(241, 107, 98);
+   }
+   .tareaPriotity{
+     background: rgb(51, 79, 102);
+     padding: 5%;
+     color:rgb(224, 205, 153);
+     font-weight: bold;
+     border-radius: 5px;
+   }
+   .divCount{
+     background:rgb(224, 205, 153);
+     border: 1px solid rgb(224, 205, 153);
+     border-top: none;
+     border-radius: 0 0 10px 10px;
+     color: rgb(51, 79, 102);
+     padding: 5%;
+   }
+   .divCountNote{
+     background:rgb(224, 205, 153);
+     border: 1px solid rgb(224, 205, 153);
+     border-top: none;
+     border-radius: 0 0 10px 10px;
+     color: rgb(51, 79, 102);
+     padding: 5%;
+     max-width: 320px;
+   }
+   .iconCounter{
+     background:  rgb(51, 79, 102);
+     color:rgb(224, 205, 153);
+     border-radius: 5px;
+     padding: 2%;
+   }
+   .textDo{
+     font-family: 'Dancing Script', cursive;
+     color: cornsilk;
+     font-size: 18px;
+   }
+   .textNote{
+     font-family: 'Gloria Hallelujah', cursive;
+     color: cornsilk;
+     font-size: 18px;
+   
+   }
+   .App-link {
+     color: #61dafb;
+   }
+   .notesHeader, .noteFooter {
+   font-family: 'Gloria Hallelujah', cursive;
+   background-color: rgba(0, 0, 0, 0);
+   padding: 20px;
+   color: bisque;
+   
+   }
+   
+   
+   
+   .notesBody{
+     margin-top: 20px;
+   
+   }
+   .noteFooter {
+     bottom: 0;
+     position: fixed;
+     left: 0;
+     width: 100%;
+     margin-top: 20px;
+   }
+   .TareaFooter {
+     top: 0;
+     position: fixed;
+     left: 0;
+     width: 100%;
+     margin-top: 20px;
+   }
+   .preWellcome{
+     position: relative;
+     margin-top: auto;
+     margin-bottom: auto;
+     display: flex;
+   }
+   .wellcome{
+     position: relative;
+     margin: auto;
+     margin-top:15%;
+     box-shadow: 3px 3px 100px 10px #0f2333;
+     font-family: 'Merienda', cursive;
+     color: rgb(224, 205, 153);
+     text-align: center;
+     max-width: 400px;
+     padding: 30px;
+     border-radius: 10px;
+   
+   }
+   .Login{
+     position: relative;
+     margin: auto;
+     text-align: center;
+   }
+   .LoginBtn{
+     font-family: 'Special Elite', cursive;
+     font-weight: bold;
+     position: relative;
+     margin-top: 60%;
+     padding: 10px;
+     background: rgba(224, 205, 153);
+     color: rgb(51, 79, 102);
+     border-radius: 5px;
+     border:none;
+   }
+   .button2{
+     padding: '';
+     background: rgb(51, 79, 102);
+     color: rgba(224, 205, 153);
+     border-radius: 5px;
+     border:none;
+     font-family: 'Special Elite', cursive;
+     font-weight: bold;
+     padding: 5px;
+   }
+   
+   .notasks{
+     padding: 10px; 
+     font-family: 'Kaushan Script', cursive;
+     color: rgb(51, 79, 102);
+   }
+   .notarea{
+     background:rgba(224, 205, 153); 
+     font-size: 50px;
+     font-family: 'Kaushan Script', cursive;
+     color: rgb(51, 79, 102);
+     transform: rotate(-7deg);
+     -ms-transform:rotate(-7deg);
+   }
+   .h4A{
+     font-family: 'Courier New', Courier, monospace
+   
+   }
+   .pA{
+     font-family: 'Poiret One', cursive;
+     color:rgba(224, 205, 153);
+   }
+   .pA2{
+     font-family: 'Poiret One', cursive;
+     color: rgb(51, 79, 102);
+     font-weight: bold;
+     font-size: 30px;
+     
+   
+   }
+   .trash{
+     position: absolute;
+     right: 5px;
+     top: 5px;
+   }
+   .trash:hover{
+     color:rgb(241, 107, 98);
+     cursor: pointer;
+   
+   
+   }

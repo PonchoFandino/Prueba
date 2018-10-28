@@ -1,0 +1,48 @@
+.NoteForm input[type="text"] {
+ padding: 9px; 
+ background:none;
+ border:none;
+ border-bottom: 1px solid rgb(51, 79, 102);
+ color: rgba(224, 205, 153);
+ 
+ 
+}
+
+
+.buttonCrear {
+    margin-top: 5px;
+    padding: 5px;
+    background: rgba(224, 205, 153) ;
+    /* border: 1px solid rgb(224, 205, 153); */
+    color: rgb(51, 79, 102) ;
+    border-radius: 5px;
+    font-family: 'Special Elite', cursive;
+    /* font-weight: bold; */
+    border: none;
+
+}
+.NoteForm button:hover {
+    background-color: rgba(224, 205, 153);
+    color:  rgb(51, 79, 102);
+    cursor: pointer;
+    /* border: none; */
+}
+.centerForm{
+    align-content: center;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    background: rgba(224, 205, 153, 0.486);
+}
+.centerForm> div::before{
+    box-shadow: 3px 3px 5px 0px #6e6d6d;
+    border-left: 10px solid rgb(51, 79, 102);
+    border-right: 10px solid rgba(236, 225, 190, 0.664);
+    border-top: 10px solid rgb(51, 79, 102);
+    border-bottom: 10px solid rgb(236, 225, 190, 0.664);
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width:0;  
+  }

@@ -1,0 +1,11 @@
+.Note {
+    background-color: rgba(201, 198, 191, 0.425);
+    padding: 20px;
+    color: rgb(75, 72, 72);
+    margin-top: 10px;
+    max-width: 300px;
+    margin-bottom: 5%;
+}
+.Note:hover{
+    cursor: pointer;
+}
